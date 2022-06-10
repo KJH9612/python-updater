@@ -1,0 +1,56 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.quit" />
+          <option value="str.implicitly_wait" />
+          <option value="str.current_url" />
+          <option value="str.terminate" />
+          <option value="list.ResultSet" />
+          <option value="bool.setProductList" />
+          <option value="PyQt5.QtCore.QObject.ChromeController" />
+          <option value="PyQt5.QtCore.QObject.CrawlTargetList" />
+          <option value="PyQt5.QtCore.QObject.exchangeLineEdit" />
+          <option value="PyQt5.QtCore.QObject.marginSettingLineEditList" />
+          <option value="PyQt5.QtCore.QObject.mallFeeLineEditList" />
+          <option value="PyQt5.QtCore.QObject.customsLineText" />
+          <option value="PyQt5.QtCore.QObject.consumerPriceLineEditList" />
+          <option value="PyQt5.QtCore.QObject.userInformation" />
+          <option value="PyQt5.QtCore.QObject.CM_deliveryChageLineEdit" />
+          <option value="PyQt5.QtCore.QObject.ProductList" />
+          <option value="PyQt5.QtCore.QObject.product_counter" />
+          <option value="PyQt5.QtCore.QObject.isCenterProdDetailCheckBox" />
+          <option value="PyQt5.QtCore.QObject.isPriorityApplyCheckBox" />
+          <option value="PyQt5.QtCore.QObject.brandLineEdit" />
+          <option value="PyQt5.QtCore.QObject.makerLineEdit" />
+          <option value="PyQt5.QtCore.QObject.csCommonComboBox" />
+          <option value="PyQt5.QtCore.QObject.CM_kindDeliveryChargeComboBox" />
+          <option value="PyQt5.QtCore.QObject.isSaleCheckBox" />
+          <option value="PyQt5.QtCore.QObject.addProductListView" />
+          <option value="PyQt5.QtCore.finished.connect" />
+          <option value="PyQt5.QtCore.QObject.detailImageTranslateCheckBox" />
+          <option value="PyQt5.QtCore.QObject.marginSettingComboBoxList" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
