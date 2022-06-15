@@ -41,6 +41,13 @@ def fileDownload(version):
             fd.write(chunk)
 
 
+def killProcess():
+    try:
+        for i in os.popen(f'tasklist /svc | findstr -i "{filename}.exe {filename}-old.exe"'):
+            os.system(f'taskkill /f /pid {i.rstrip().split()[1]}')
+    except Exception as e:
+        pass
+
 def main():
     # 버전 체크
     new_version = getNewVersion()
@@ -65,9 +72,10 @@ def main():
             shutil.move(PATH + f"/latest/{APP_NAME}.exe", REAL_PATH + f"/{filename}.exe")
             shutil.rmtree(PATH + f"/latest")
 
-            # 재시작
+            # 새로운 프로그램 실행
             os.startfile(fr"{REAL_PATH}/{filename}.exe")
-
+            # 프로세스가 남아있을 경우 사용
+            # killProcess()
             sys.exit()
     except Exception as e:
         print(e)
@@ -75,4 +83,4 @@ def main():
 # 1
 main()
 
-os.system('pause')
+# os.system('pause')
