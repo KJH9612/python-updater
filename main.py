@@ -1,17 +1,11 @@
-import ctypes
-import subprocess
-import time
-
 import requests
 import os
 import shutil
-import boto3
 import sys
 from zipfile import ZipFile
-from pathlib import Path
 
 VERSION = '1.0.0'
-APP_NAME = '셀파크롤러'
+APP_NAME = 'APP_NAME'
 PATH = os.path.dirname(__file__)
 BUCKET_FILE_PATH = ''
 FRONT_URL = ""
