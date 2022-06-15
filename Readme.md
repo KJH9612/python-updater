@@ -1,1 +1,1 @@
-https://codeflex.co/python-script-autoupgrade/
+# 파이썬 응용 프로그램 자동 업데이트 로직
